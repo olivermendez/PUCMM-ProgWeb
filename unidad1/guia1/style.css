@@ -2,12 +2,20 @@ header {
     animation-duration: 1s;
     animation-name: slidein;
     font-size: 80px;
-    text-align: center;
+    font-family: Arial, Helvetica, Sans-serif
+    
 }
 h1 {
     font-size: 50px;
-    text-align: center; 
+    
 }
+body { font-family: "Arial" }
+
+p {
+    text-align: justify;
+    
+}
+
 @keyframes slidein {
     from {
         margin-left: 100%;
