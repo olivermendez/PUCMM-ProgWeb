@@ -9,6 +9,17 @@ h1 {
     font-size: 50px;
     
 }
+
+.finished {
+    background-color:aqua;
+    width: min-content;
+}
+
+.Noyet{
+    background-color:beige;
+    width: min-content;
+}
+
 body { font-family: "Arial" }
 
 p {
