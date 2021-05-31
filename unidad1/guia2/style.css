@@ -1,0 +1,21 @@
+.listyle{
+    text-transform: uppercase;
+}
+/*
+    Comentarios
+*/
+
+#destacado{color: red;}
+
+.main{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+h1.main{
+    /*
+    Otras caracteristicas
+    */
+    font-style: italic;
+    text-align: inherit;
+}
