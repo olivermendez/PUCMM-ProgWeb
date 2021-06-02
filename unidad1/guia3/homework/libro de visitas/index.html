@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Libro de visitas</title>
+  </head>
+  <body>
+    <h1>Libro de visitas</h1>
+    <label for="name">Nombre</label>
+    <input type="text" name="names" id="name" />
+    <br />
+    <label for="name">Apellidos</label>
+    <input type="text" name="apellidos" id="apellido" />
+    <br />
+    <p>Indica un pseudonimo y una contrasena</p>
+    <label for="text"> pseudonimo </label>
+    <input type="text" name="pseudo" id="pseudos" />
+
+    <h2>Otros datos</h2>
+    <table>
+      <tr>
+        <th>Edad</th>
+        <th>Donde vives</th>
+        <th>Aficciones</th>
+      </tr>
+
+      <tr>
+        <td>
+          <input type="checkbox" name="0-10" id="nino" /> 0-10 <br />
+          <input type="checkbox" name="0-10" id="nino" /> 11-20 <br />
+          <input type="checkbox" name="0-10" id="nino" /> 21-30 <br />
+          <input type="checkbox" name="0-10" id="nino" /> 31-40 <br />
+          <input type="checkbox" name="0-10" id="nino" /> 41 o mas <br />
+        </td>
+
+        <td>
+          <input type="checkbox" name="0-10" id="nino" /> Santiago <br />
+          <input type="checkbox" name="0-10" id="nino" /> Santo Domingo <br />
+          <input type="checkbox" name="0-10" id="nino" /> La Romana <br />
+          <input type="checkbox" name="0-10" id="nino" /> San Cristobal<br />
+          <input type="text" name="otros" id="pueblo" /> Otros
+          <br />
+        </td>
+
+        <td>
+          <input type="checkbox" name="0-10" id="nino" /> Musica <br />
+          <input type="checkbox" name="0-10" id="nino" /> Deportes <br />
+          <input type="checkbox" name="0-10" id="nino" /> Pintura <br />
+          <input type="checkbox" name="0-10" id="nino" /> Lectura <br />
+          <input type="text" name="otros" id="pueblo" /> Otro
+          <br />
+        </td>
+      </tr>
+    </table>
+    <br />
+    <button type="submit">Enviar</button>
+    <button type="reset">Restaurar</button>
+  </body>
+</html>

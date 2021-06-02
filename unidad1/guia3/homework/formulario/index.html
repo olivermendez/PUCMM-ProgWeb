@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Ejemplo</title>
+</head>
+<body class="form">
+
+    <h1>Formulario</h1>
+
+    <form method="GET" enctype="text/plain" class="form1">
+    
+    Escribe tu nombre 
+    <input type="text" name="nombre" size="40" maxlength="40">
+    <br><br>
+    
+    <label for="pasword" class="pasword">Contrasena</label>
+    <input type="text" name="contrasena" size="10" maxlength="40">
+    <br><br>
+
+    <label for="files" class="btn">Select Image</label>
+    <input type="file" name="foto" id="enviar foto">
+
+    <p>Este manuel me parece</p>
+    <input type="radio" name="tema" value="arte" checked> Muy bueno <br>
+    <input type="radio" name="tema" value="arte" > Bueno
+    <br>
+    <input type="radio" name="tema" value="arte" > Malo
+    <br>
+    <input type="radio" name="tema" value="arte" > Muy malo
+    <br>
+
+    <input type="checkbox" name="actualizaciones" value="deporte" checked> Avisame de actualizaciones <br>
+    <br>
+    <input type="submit" value="Enviar datos">
+    <input type="reset" value="borrar datos">
+    
+    
+    </form>
+
+
+    
+</body>
+</html>
