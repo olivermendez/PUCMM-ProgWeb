@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 1</title>
+  </head>
+  <body>
+    <h1>Analisis de Resultados 1</h1>
+    <p>Inserta 3 numeros para verificar el mayor de ellos</p>
+
+    <form id="formCalcularElMayor">
+      <input type="number" id="numero1" min="0" required pattern="/^[0-9]$]/" />
+      <input type="number" id="numero2" min="0" required pattern="/^[0-9]$]/" />
+      <input type="number" id="numero3" min="0" required pattern="/^[0-9]$]/" />
+      <input type="submit" value="Calcular" />
+    </form>
+
+    <p>El mayor es:</p>
+    <h3 id="result"></h3>
+    <script src="./app.js"></script>
+  </body>
+</html>
