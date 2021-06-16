@@ -1,0 +1,11 @@
+header, section, aside, footer{
+    margin: 2%;;
+    padding: 2%;
+    outline: 4px dashed black;
+    vertical-align: top;
+}
+
+section, aside{
+    margin-right: 0;
+    width: 28.5%;
+}
